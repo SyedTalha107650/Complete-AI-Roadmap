@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Roadmap by Syed Talha Ali Shah</title>
+<meta name="description" content="A complete, free AI roadmap: Python to Generative AI, with curated courses and notes.">
+<link rel="icon" href="assets/talha.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=3">
+</head>
+<body class="locked">
+
+<div id="doors" aria-label="Entrance">
+  <div class="rays"></div><div class="rays r2"></div>
+  <div class="door left"><span class="knob"></span></div>
+  <div class="door right"><span class="knob"></span></div>
+  <div class="gate">
+    <img src="assets/talha.jpg" alt="Syed Talha Ali Shah" class="gate-img">
+    <h1>AI Roadmap</h1>
+    <p>Every skill you need, in the order you need it.</p>
+    <button id="knock">Open the door</button>
+  </div>
+</div>
+
+<div id="glow"></div>
+
+<header class="nav">
+  <a href="#top" class="brand">AI<b>Roadmap</b></a>
+  <nav>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#resources">Resources</a>
+    <button id="aboutBtn" class="about-btn"><img src="assets/talha.jpg" alt=""><span>About Syed Talha</span></button>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="kicker">Free, structured, beginner to job-ready</p>
+    <h2>Learn AI without guessing what comes next.</h2>
+    <p class="lead">Six stages, from Python basics to Generative AI. Each stage links to a full course, so you can start today and track your own progress.</p>
+    <div class="cta">
+      <a href="#roadmap" class="btn primary">Start the roadmap</a>
+      <button id="pdfBtn" class="btn ghost">Download as PDF</button>
+    </div>
+  </section>
+
+  <section id="roadmap" class="road">
+    <div class="road-head">
+      <h3>The roadmap</h3>
+      <div class="progress"><div id="bar"></div></div>
+      <span id="pct">0% complete</span>
+    </div>
+    <ol id="stages" class="stages"></ol>
+  </section>
+
+  <section id="resources" class="res">
+    <h3>All resources in one place</h3>
+    <div class="res-grid" id="resGrid"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Built by Syed Talha Ali Shah. Share this roadmap with someone who is starting out.</p>
+</footer>
+
+<!-- About modal -->
+<div id="about" class="modal" hidden>
+  <div class="modal-box">
+    <button class="close" data-close aria-label="Close">&times;</button>
+    <div class="who">
+      <img src="assets/talha.jpg" alt="Syed Talha Ali Shah">
+      <div><h3>Syed Talha Ali Shah</h3><p>AI Engineer | Peshawar, Pakistan</p></div>
+    </div>
+    <p>AI Engineer with hands-on experience in Generative AI, Agentic AI, Machine Learning, Computer Vision and Embedded Systems. Builds end-to-end AI solutions, from model development to deployment, on a base of strong software engineering, data structures, algorithms and system design. Served as AWS Student Team Lead at UET Peshawar.</p>
+    <h4>Research</h4>
+    <p>Co-authored an IEEE conference paper, <em>Segmentation, Area Estimation, and Clustering of Solar Panels for Solar Tube Well Mapping</em> (2025). The pipeline combines YOLOv8 detection with SAM2 mask refinement and K-Means clustering, reaching about 95% accuracy on satellite imagery. A second paper on deep-learning-assisted earth observation for solar-powered irrigation and groundwater abstraction is in progress.</p>
+    <h4>Experience</h4>
+    <ul>
+      <li><b>Research Intern</b>, NCBC, UET Peshawar (Nov 2025 – Present)</li>
+      <li><b>Data Science Intern</b>, Aptura Tech Solutions (May – Jun 2026)</li>
+      <li><b>AI Virtual Intern</b>, DecodeLabs (May – Jun 2026)</li>
+    </ul>
+    <h4>Skills</h4>
+    <div class="tags"><span>Computer Vision</span><span>Machine Learning</span><span>Deep Learning</span><span>Generative AI</span><span>Agentic AI</span><span>LangChain</span><span>LangGraph</span><span>LlamaIndex</span><span>LLM Security</span><span>Python</span><span>C / C++</span><span>Java</span><span>C#</span><span>Verilog</span><span>Flask</span><span>FastAPI</span><span>Streamlit</span><span>Chainlit</span><span>SQL</span><span>AWS</span><span>Unity</span><span>Embedded Systems</span></div>
+  </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="script.js?v=3"></script>
+</body>
+</html>
